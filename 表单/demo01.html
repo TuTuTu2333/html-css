@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table{
+            margin: auto;
+        }
+       table tr td{
+           width:100px;
+       }
+       .left{
+           text-align: left;
+           padding: 5px 10px;
+       }
+       .right{
+           text-align: right;
+           padding: 5px 10px;
+       }
+       .center{
+           text-align: center;
+           padding: 10px 0;
+       }
+       .a{
+           padding: 5px 60px 5px;
+       }
+       .font{
+           font-size: 10px;
+           color: slategray;
+       }
+    </style>
+</head>
+<body>
+       <table width=450  cellspacing=0 cellpadding=0>
+           <tr>
+               <td class="right">我是</td>
+               <td class="left" colspan="2">
+                   <input type="radio" name="sex" checked="checked"/>男
+                   <input type="radio" name="sex"/>女
+               </td>
+               <td class="font">*注册后不可更改</td>
+           </tr>
+           <tr>
+               <td class="right" >生日</td>
+               <td class="left" colspan="2">
+                   <select>
+                       <option value="">1990</option>
+                       <option value="">1991</option>
+                       <option value="">1992</option>
+                   </select>年
+
+                   <select>
+                       <option value="">1</option>
+                       <option value="">2</option>
+                       <option value="">3</option>
+                   </select>月
+
+                   <select>
+                       <option value="">1</option>
+                       <option value="">2</option>
+                       <option value="">3</option>
+                   </select>日
+               </td>
+               <td class="font">*注册后不可更改</td>
+           </tr>
+           <tr>
+               <td class="right">常住地</td>
+               <td colspan="3"  class="left">
+                   <input type="text"/>
+               </td>
+           </tr>
+           <tr>
+               <td class="right">婚姻状况</td>
+               <td class="left" colspan="3">
+                    未婚<input type="radio" name="a" checked="checked">
+                    离婚<input type="radio" name="a">
+                    丧偶<input type="radio" name="a">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">身高</td>
+               <td colspan="3" class="left">
+                   <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">学历</td>
+               <td colspan="3" class="left">
+                    <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">月薪</td>
+               <td colspan="3" class="left">
+                    <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">注册方式</td>
+               <td class="left" colspan="3">
+                   <input type="radio" name="ce" checked="checked">邮箱注册
+                   <input type="radio" name="ce">手机注册
+               </td>
+           </tr>
+           <tr>
+               <td class="right">手机号</td>
+               <td colspan="3" class="left">
+                    <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">验证码</td>
+               <td colspan="3" class="left">
+                    <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">创建密码</td>
+               <td colspan="3" class="left">
+                    <input type="password">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">昵称</td>
+               <td colspan="3" class="left">
+                    <input type="text">
+               </td>
+           </tr>
+           <tr>
+               <td class="right">自我介绍</td>
+               <td colspan="3" class="right">
+                   <a href="#">看别人怎么写</a>
+               </td>
+           </tr>
+           <tr>
+               <td></td>
+                <td colspan="3" class="left">
+                        <textarea  cols="40" rows="10"></textarea>
+               </td>
+           </tr>
+           <tr>
+               <td colspan="4" class="center">
+                   <input type="submit" value="免费注册">
+                </td>
+           </tr>
+           <tr>
+              <td colspan="4" class="a">
+                  <input type="checkbox" name="chbox" checked="checked">
+                  我同意<u>注册条款</u>和<u>会员加入标准</u>
+              </td>
+           </tr>
+           <tr>
+                <td colspan="4" class="a">
+                  <input type="checkbox" name="chbox" checked="checked">
+                  同时创建旗下全认证婚恋网站<u>爱真心</u>账号
+                </td>
+            </tr>
+       </table>
+</body>
+</html>

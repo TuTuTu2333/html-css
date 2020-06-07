@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+         *{
+             margin: 0;
+             padding: 0;
+         }
+         .box{
+             width: 200px;
+             height: 200px;
+             margin:100px auto;
+             position: relative;
+             transform-style: preserve-3d;
+             transition: all 5s;
+         }
+
+         .box div{
+              width: 200px;
+              height: 200px;
+              font-size: 50px;
+              color: #fff;
+              text-align: center;
+              line-height: 200px;
+              position: absolute;
+         }
+         .box div:nth-child(1){
+             background: coral;
+             top: -100px;
+             transform: rotateX(90deg);
+         }
+         .box div:nth-child(2){
+             background: cornflowerblue;
+             top: 100px;
+             transform: rotateX(-90deg);
+         }
+         .box div:nth-child(3){
+             background:#ff0;
+             left: -100px;
+             transform: rotateY(-90deg);
+         }
+         .box div:nth-child(4){
+             background:#f0f;
+             left: 100px;
+             transform: rotateY(90deg);
+         }
+         .box div:nth-child(5){
+             background: #0ff;
+             transform: translateZ(100px);
+         }
+         .box div:nth-child(6){
+             background: greenyellow;
+             transform: translateZ(-100px) rotateY(180deg);
+         }
+
+         .box:hover{
+             transform: rotate3d(1,1,1,360deg);
+         }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div>上</div>
+    <div>下</div>
+    <div>左</div>
+    <div>右</div>
+    <div>前</div>
+    <div>后</div>
+</div>
+</body>
+</html>

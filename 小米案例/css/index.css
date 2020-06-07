@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.art1{
+    width: 1300px;
+    height: 300px;
+    margin: 100px auto;
+    /* background: skyblue; */
+    position: relative;
+}
+
+.art2{
+    width: 234px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    top: 0;
+    transition: top 2s;
+    margin-left: 10px;
+    position: relative;
+    
+    
+}
+.bg1{
+    background: url(../img/xiaomi1.jpg) no-repeat center center;
+}
+.bg2{
+    background: url(../img/xiaomi2.jpg) no-repeat center center;
+}
+.bg3{
+    background: url(../img/xiaomi3.jpg) no-repeat center center;
+}
+.bg4{
+    background: url(../img/xiaomi4.jpg) no-repeat center center;
+}
+.bg5{
+    background: url(../img/xiaomi5.jpg) no-repeat center center;
+}
+.p{
+    width: 234px;
+    height: 0;
+    background: yellow;
+    position: absolute;
+    bottom: 0;
+    transition: height 2s;
+}
+.art2:hover{
+    top: -20px;
+    box-shadow: 0 -1px 5px #ccc;
+}
+.art2:hover p{
+    height: 50px;
+}

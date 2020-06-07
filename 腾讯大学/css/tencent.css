@@ -1,0 +1,311 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.l {
+    float: left;
+}
+.r{
+    float: right;
+}
+
+body {
+    background-color: #d6dae2;
+}
+
+/************************ top ************************/
+#top {
+    width: 100%;
+    height: 438px;
+    background-color: #ffffff;
+}
+
+.dao {
+    width: 1241px;
+    height: 77px;
+    /* background-color: aqua; */
+}
+
+.dao ul {
+    width: 738px;
+    height: 77px;
+    margin-left: 50px;
+}
+
+.dao ul li {
+    float: left;
+}
+
+.dao ul li a {
+    display: block;
+    height: 85px;
+}
+
+.dao ul li:nth-child(1) a {  /*滑动导航*/
+    width:99px;
+    background: url(../img/nav.png) no-repeat;
+    background-position: 0 -1px;
+}
+
+.dao ul li:nth-child(2) a {
+    width:126px;
+    background: url(../img/nav.png) no-repeat;
+    background-position: -98px -1px;
+}
+
+.dao ul li:nth-child(3) a {
+    width:146px;
+    background: url(../img/nav.png) no-repeat;
+    background-position: -223px -1px;
+}
+
+.dao ul li:nth-child(4) a {
+    width:120px;
+    background: url(../img/nav.png) no-repeat;
+    background-position: -369px -1px;
+}
+
+.dao ul li:nth-child(5) a {
+    width:124px;
+    background: url(../img/nav.png) no-repeat;
+    background-position: -489px -1px;
+}
+
+.dao ul li:nth-child(6) a {
+    width:123px;
+    background: url(../img/nav.png) no-repeat;
+    background-position: -614px -1px;
+}
+
+.dao ul li:nth-child(1):hover a {
+    background: url(../img/nav.png) no-repeat;
+    background-position:0 -91px;
+}
+
+.dao ul li:nth-child(2):hover a {
+    background: url(../img/nav.png) no-repeat;
+    background-position: -98px -91px;
+}
+
+.dao ul li:nth-child(3):hover a {
+    background: url(../img/nav.png) no-repeat;
+    background-position: -223px -91px;
+}
+
+.dao ul li:nth-child(4):hover a {
+    background: url(../img/nav.png) no-repeat;
+    background-position: -369px -91px;
+}
+
+.dao ul li:nth-child(5):hover a {
+    background: url(../img/nav.png) no-repeat;
+    background-position: -489px -91px;
+}
+
+.dao ul li:nth-child(6):hover a {
+    background: url(../img/nav.png) no-repeat;
+    background-position: -614px -91px;
+}
+.dao .qq{
+    width: 40px;
+    height: 55px;
+    margin:10px 0 0 10px;
+    text-align: center;
+    color:#dcdcdc;
+    font-size: 13px;
+}
+.dao .search{
+    width: 50px;
+    height:40px;
+    padding-right: 5px;
+    margin:20px 5px 0 0;
+    border-right:1px solid #dcdcdc;
+}
+
+.banner {
+    widows: 1447px;
+    height: 361px;
+    text-align: center;
+    background-color: rgb(166, 94, 214);
+}
+/************************ top ************************/
+
+
+/*********************** 二维码 **********************/
+#two {
+    width: 121px;
+    height: 165px;
+    background-color: tomato;
+    float: right;
+    margin: 20px 90px 0 0;
+
+}
+/*********************** 二维码 **********************/
+
+
+/*********************** 内容版块 **********************/
+#ad {
+    width: 1066px;
+    height: 2075px;
+    margin-top: 20px;
+}
+
+#ad .hcour {
+    width: 782px;
+    height: 354px;
+    margin: 0;
+    background-color: #f2f1ef;
+}
+
+#ad .hcour .cont_1 {
+    height: 294px;
+    background-color: cornflowerblue;
+}
+
+.con {
+    width: 228px;
+    height: 274px;
+    background-color: firebrick;
+    float: left;
+    margin: 15px;
+}
+
+#ad .seni {
+    width: 268px;
+    height: 2075px;
+    background-color: #ffffff;
+    float: right;
+}
+
+#ad .seni .sen_1 {
+    height: 1166px;
+}
+
+#ad .seni .sen_2 {
+    height: 398px;
+}
+
+#ad .seni .sen_3 {
+    height: 511px;
+}
+
+#ad .share {
+    width: 782px;
+    height: 498px;
+    background-color: #f2f1ef;
+    margin-top: 20px;
+}
+
+#ad .share .sha {
+    width: 742px;
+    height: 127px;
+    background-color: violet;
+    margin-top: 10px;
+}
+
+#ad .share .cont_2 {
+    height: 438px;
+    background-color: blueviolet;
+}
+
+#ad .specour {
+    width: 782px;
+    height: 354px;
+    background-color: #f2f1ef;
+    margin: 20px 0 0 0;
+}
+
+#ad .specour .cont_3 {
+    height: 294px;
+    background-color: chocolate;
+}
+
+#ad .cpetcour {
+    width: 782px;
+    height: 808px;
+    background-color: #f2f1ef;
+    margin: 20px 0 0 0;
+}
+
+#ad .cpetcour .cont_4 {
+    height: 748px;
+    background-color: deeppink;
+}
+
+#ad .cpetcour .cont_4 .nro {
+    width: 368px;
+    height: 370px;
+    background-color: cadetblue;
+    float: left;
+    margin: 0 11px;
+}
+
+.tit {
+    height: 60px;
+    background-color: bisque;
+}
+/*********************** 内容版块 **********************/
+
+
+/*********************** bottom **********************/
+#bottom {
+    width: 100%;
+    height: 498px;
+    background-color: #ffffff;
+}
+
+#bottom .links {
+    width: 1066px;
+    height: 388px;
+    background-color: rgb(248, 151, 164);
+}
+
+#bottom .links .lin_1 {
+    width: 768px;
+    height: 173px;
+    margin: 20px 0 0 20px;
+    background-color: chartreuse;
+
+}
+
+#bottom .links .lin_2 {
+    width: 268px;
+    height: 200px;
+    background-color: rgb(118, 216, 255);
+    margin-top: 20px;
+    float: right;
+
+}
+
+#bottom .links .lin_3 {
+    width: 768px;
+    height: 150px;
+    background-color: rgb(209, 93, 93);
+    margin: 20px 0 0 20px;
+
+}
+
+#bottom .ban {
+    width: 100%;
+    height: 110px;
+    background-color: #bababa;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+#bottom .ban a {
+    text-decoration: none;
+    color: #000000;
+}
+/*********************** bottom **********************/

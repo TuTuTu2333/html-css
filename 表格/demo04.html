@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      table tr td{
+          width: 100px;
+          height: 40px;
+          padding: 5px;
+          text-align: center;
+      }
+      .a{
+          text-align: right;
+      }
+      .b{
+          text-align: left;
+      }
+    </style>
+</head>
+<body>
+<form name="" method="POST" action="#">
+    <table width=600 height=200 border="1px soild black" cellspacing=0 cellpadding=0>
+        <tr>
+            <td rowspan="4">总体信息</td>
+            <td colspan="2">用户注册</td>
+        </tr>
+        <tr>
+            <td class="a">用户名：</td>
+            <td class="b">
+                <input type="text"  placeholder="填写用户名">
+            </td>
+        </tr>
+        <tr>
+            <td class="a">密码：</td>
+            <td class="b">
+                <input type="password" >
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="" value="提交">
+                <input type="reset" name="" value="重置">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

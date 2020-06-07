@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.art1{
+    height: 50px;
+    background: #ccc;
+    text-align: center;
+    line-height: 50px
+}
+.art2{
+    height: 250px;
+    /* background: coral; */
+    text-align: center;  
+}
+img{
+    margin: 50px 0 0 60px;
+    transition: transform 2s;
+}
+.ig1 img:hover{
+    transform: rotate(360deg) scale(1.2,1.2); 
+}
+
+.ig2 img:hover{
+    transform: rotate(-360deg) scale(0.7,0.7);
+}

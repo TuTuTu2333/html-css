@@ -1,0 +1,456 @@
+/*公共样式--开始*/
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    /* 怪异盒模型 */
+    box-sizing: border-box;
+}
+
+.con {
+    width: 1192px;
+    margin: auto;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+}
+
+i {
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ul,
+ol {
+    /* 清除列表符号 */
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    /* 清除a下划线 */
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input,
+textarea {
+    /* 去掉聚焦时蓝色边框 */
+    outline: none;
+    border: none;
+}
+
+textarea {
+    /* 禁止拉动 */
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    /* 清除浮动 */
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.fl {
+    /* 左浮 */
+    float: left;
+}
+
+.fr {
+    /* 右浮 */
+    float: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/* a:hover {
+    border-bottom: 1px solid red;
+} */
+
+/* 精灵图 */
+.pic {
+    background-image: url("../img/top_ico.png");
+    display: block;
+    position: absolute;
+}
+
+.pic_1 {
+    background-position: -10px -0px;
+    width: 7px;
+    height: 4px;
+    top: 10px;
+    right: 10px;
+}
+
+.pic_2 {
+    background-position: -5px -25px;
+    width: 10px;
+    height: 14px;
+    left: 10px;
+    top: 4px;
+}
+
+.pic_3 {
+    background-position: -5px -60px;
+    width: 15px;
+    height: 16px;
+    left: 6px;
+    top: 3px;
+}
+
+.pic_4 {
+    background-position: -0px -95px;
+    width: 19px;
+    height: 16px;
+    left: 10px;
+    top: 3px;
+}
+
+.pic_5 {
+    background-position: -0px -125px;
+    width: 21px;
+    height: 18px;
+}
+
+
+
+.logo_ico {
+    background-image: url("../img/logo_ico.png");
+    display: block;
+    position: absolute;
+}
+
+.ico_1 {
+    background-position: -0px -0px;
+    width: 66px;
+    height: 31px;
+    top: 5px;
+    left: 35px;
+}
+
+.ico_2 {
+    background-position: -105px -0px;
+    width: 38px;
+    height: 27px;
+    top: 10pX;
+    left: 50px;
+}
+
+.ico_3 {
+    background-position: -230px -0px;
+    width: 29px;
+    height: 31px;
+    top: 10pX;
+    left: 58px;
+}
+
+.ico_4 {
+    background-position: -340px -0px;
+    width: 28px;
+    height: 31px;
+    top: 10pX;
+    left: 55px;
+}
+
+.ico_5 {
+    background-position: -425px -5px;
+    width: 43px;
+    height: 24px;
+    top: 15pX;
+    left: 50px;
+}
+
+.ico_6 {
+    background-position: -510px -0px;
+    width: 75px;
+    height: 31px;
+    top: 5pX;
+    left: 30px;
+}
+
+.ico_7 {
+    background-position: -615px -5px;
+    width: 59px;
+    height: 22px;
+    top: 15pX;
+    left: 40px;
+}
+
+.ico_8 {
+    background-position: -5px -80px;
+    width: 53px;
+    height: 22px;
+    top: 15pX;
+    left: 50px;
+}
+
+.ico_9 {
+    background-position: -85px -80px;
+    width: 71px;
+    height: 16px;
+    top: 20pX;
+    left: 40px;
+}
+
+.ico_10 {
+    background-position: -210px -75px;
+    width: 72px;
+    height: 25px;
+    top: 15px;
+    left: 35px;
+}
+
+.ico_11 {
+    background-position: -330px -75px;
+    width: 45px;
+    height: 27px;
+    top: 10pX;
+    left: 50px;
+}
+
+.ico_12 {
+    background-position: -410px -80px;
+    width: 80px;
+    height: 14px;
+    top: 20pX;
+    left: 30px;
+}
+
+.ico_13 {
+    background-position: -530px -75px;
+    width: 38px;
+    height: 22px;
+    top: 15pX;
+    left: 50px;
+}
+
+.ico_14 {
+    background-position: -625px -80px;
+    width: 44px;
+    height: 13px;
+    top: 20pX;
+    left: 50px;
+}
+
+.ico_15 {
+    background-position: -0px -145px;
+    width: 46px;
+    height: 21px;
+    top: 15pX;
+    left: 50px;
+}
+
+.ico_16 {
+    background-position: -75px -145px;
+    width: 101px;
+    height: 23px;
+    top: 15pX;
+    left: 20px;
+}
+
+.ico_17 {
+    background-position: -200px -150px;
+    width: 100px;
+    height: 15px;
+    top: 20pX;
+    left: 20px;
+}
+
+.ico_18 {
+    background-position: -340px -140px;
+    width: 32px;
+    height: 32px;
+    top: 10pX;
+    left: 55px;
+}
+
+.ico_19 {
+    background-position: -415px -155px;
+    width: 60px;
+    height: 13px;
+    top: 20pX;
+    left: 40px;
+}
+
+.ico_20 {
+    background-position: -510px -150px;
+    width: 70px;
+    height: 21px;
+    top: 17px;
+    left: 40px;
+}
+
+.ico_21 {
+    background-position: -615px -155px;
+    width: 64px;
+    height: 18px;
+    top: 18px;
+    left: 40px;
+}
+
+
+.ad3_li {
+    background-image: url("../img/1F.png");
+    display: block;
+    position: absolute;
+}
+
+.li_1 {
+    background-position: -0px -0px;
+    width: 66px;
+    height: 31px;
+    top:1px;
+    left:10px;
+}
+
+.li_2 {
+    background-position: -95px -0px;
+    width: 38px;
+    height: 27px;
+    top:5px;
+    left: 28px;
+}
+
+.li_3 {
+    background-position: -15px -55px;
+    width: 29px;
+    height: 31px;
+    top: 3px;
+    left:26px;
+}
+
+.li_4 {
+    background-position: -95px -60px;
+    width: 28px;
+    height: 31px;
+    top: 3px;
+    left:30px;
+}
+
+.li_5 {
+    background-position: -5px -115px;
+    width: 43px;
+    height: 24px;
+    top: 8px;
+    left:21px;
+}
+
+.li_6 {
+    background-position: -75px -110px;
+    width: 75px;
+    height: 31px;
+    top: 3px;
+    left:10px;
+}
+
+.li_7 {
+    background-position: -5px -180px;
+    width: 53px;
+    height: 22px;
+    top: 6px;
+    left:20px;
+}
+
+.li_8 {
+    background-position: -80px -180px;
+    width: 71px;
+    height: 16px;
+    top: 13px;
+    left:16px;
+}
+
+.li_9 {
+    background-position: -0px -250px;
+    width: 46px;
+    height: 21px;
+    top: 10px;
+    left:16px;
+}
+
+.li_10 {
+    background-position: -80px -255px;
+    width: 72px;
+    height: 25px;
+    top: 7px;
+    left: 15px;
+}

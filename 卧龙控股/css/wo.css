@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.l {
+    float: left;
+}
+
+#top {
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+#top .top_1 {
+    width: 273px;
+    height: 100px;
+}
+
+#top .top_2 {
+    width: 318px;
+    height: 100px;
+    float: right;
+}
+
+#top .top_2 .sou {
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#top .top_2 .sou .inp_1 {
+    width: 180px;
+    height: 30px;
+}
+
+#top .top_2 .sou .inp_2 {
+    width: 25px;
+    height: 30px;
+    border: 1px 1px 1px 0 solid #e5e5e5;
+}
+
+#top .top_2 .sou .inp_1 input {
+    width: 180px;
+    height: 23px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+#top .top_2 .sou .inp_2 button {
+    /* background-image: url(../img/wo_01.png) no-repeat; */
+    width: 20px;
+    height: 22px;
+    border: none;
+    margin-top: 2px;
+    background-color: #f1f1f1;
+}
+
+#dao {
+    width: 1000px;
+    height: 60px;
+    background-color: #2a2a2a;
+    margin: auto;
+}
+
+#dao ul {
+    list-style: none;
+}
+
+#dao ul li {
+    width: 125px;
+    height: 60px;
+    float: left;
+    border-right: 1px solid #4b4b4b;
+    box-sizing: border-box;
+}
+
+#dao ul li a {
+    display: block;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+
+    text-decoration: none;
+
+}
+
+#dao ul li a:hover {
+    background-color: #cb2823;
+}
+
+#dao ul li a:active {
+    color: #000000;
+}
+
+#banner {
+    width: 1000px;
+    height: 460px;
+    margin: auto;
+}
+
+#neiro1 {
+    width: 1000px;
+    height: 248px;
+    margin: auto;
+}
+
+#neiro1 .tit_1 {
+    width: 500px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 76px;
+}
+
+#neiro1 .tit_2 {
+    width: 240px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 76px;
+    background-color: #f1f1f1;
+}
+
+#neiro1 .tit_3 {
+    width: 260px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 76px;
+    background-color: #fbfbfb;
+}
+
+span {
+    margin-left: 15px;
+}
+
+#neiro1 .ne_1 {
+    width: 500px;
+    height: 166px;
+}
+
+#neiro1 .ne_1 ul {
+    margin-left: 30px;
+    line-height: 23px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#neiro1 .ne_2 {
+    width: 240px;
+    height: 166px;
+    background-color: #f1f1f1;
+}
+
+#neiro1 .ne_2 p {
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+#neiro1 .ne_3 {
+    width: 260px;
+    height: 166px;
+    background-color: #fbfbfb;
+}
+
+#neiro1 .ne_3 p {
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#neiro1 .ne_3 .rad {
+    width: 80px;
+    height: 20px;
+    background-color: #b2b2b2;
+    margin-left: 15px;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+#neiro2 {
+    width: 1000px;
+    height: 306px;
+    margin: auto;
+    position: relative;
+}
+
+#neiro2 .tit_4 {
+    width: 1000px;
+    height: 65px;
+    font-size: 20px;
+    line-height: 65px;
+}
+
+.p {
+    text-align: center;
+}
+.p1{
+    display: block;
+    width: 210px;
+    height: 136px;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+#neiro2 .mark {
+    width: 25%;
+    height: 241px;
+}
+
+#links {
+    width: 1000px;
+    height: 250px;
+    background-color:#e5e5e5;
+    margin: auto;
+    color: #656565;
+}
+
+#links .li_1 {
+    width: 464px;
+    height: 210px;
+    margin: 20px 0 0 20px;
+}
+.p2{
+    font-size: 17px;
+}
+.bot{
+      height: 30px;
+      border-bottom: 1px solid #c1c1c1;
+      margin-bottom: 20px;
+}
+.ul{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#links .li_2 {
+    width: 178px;
+    height: 210px;
+    margin: 20px 0 0 30px;
+}
+
+#links .li_3 {
+    width: 258px;
+    height: 210px;
+    margin: 20px 0 0 30px;
+}
+
+#bottom {
+    width: 1000px;
+    height: 85px;
+    margin: auto;
+    font-size: 12px;
+}
+#bottom .bott_1{
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#bottom .bott_1 ul{
+    list-style: none;
+}
+#bottom .bott_1 ul li{
+    float: left;
+    margin-left: 5px;  
+}
+#bottom .bott_1 ul li a{
+    border-right: 1px solid #656565;
+    text-decoration: none;
+    padding: 0 5px 0 0;
+    color: #656565;
+}
+#bottom .bott_2{
+    width: 635px;
+    height: 60px;
+    line-height: 60px;
+    float: right;
+    color: #656565;
+}
